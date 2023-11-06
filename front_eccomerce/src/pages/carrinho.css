@@ -1,0 +1,28 @@
+.carrinho-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .sneaker-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .sneaker-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .brand-name {
+    font-weight: bold;
+  }
+  
+  .remove-button {
+    color: red;
+    cursor: pointer;
+  }
